@@ -4,7 +4,7 @@ import java.util.function.Function;
 
 public class BasicLambda {
     public static void main(String[] args) {
-        AddFunction addFunction = (a, b) ->a+b;
+        AddFunction addFunction = Integer::sum;
         SubtractFunction subtractFunction = (a,b) -> a-b;
         System.out.println(addFunction.add(4,6));
         useLamdaAsArg(subtractFunction);
