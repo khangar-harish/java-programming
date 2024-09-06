@@ -5,44 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d269ea2a-70a7-42f6-bf3f-760636e93d13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/linkedlist/doubly/DLLMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/linkedlist/doubly/DLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/CollectorsMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/GroupAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/GroupingBy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/HighestSalary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/StringCompressor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/findNthHighest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/streams/DBPersonList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/streams/LambdaSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/streams/SortingMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/oops/BasicOOP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/recursion/Fibo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/recursion/GCDofNo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/recursion/MinElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/recursion/PowerOfNo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/recursion/PrintArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/recursion/SumofArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/sorting/SortingAlgo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/stack/ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/stack/BStringArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/stack/BeautifulArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/stack/InsertAtBottom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/stack/LListStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/stack/LStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/stack/MinimumAtPop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/stack/NextGreaterElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/stack/NextSmallerElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/stack/PrintBracketNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/stack/RevArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/stack/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/stack/StockSpan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/stack/ValidParanthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/concurrent/ConcurrentProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/concurrent/ProblemSolved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/design_pattern/DoubleLockSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/design_pattern/FactoryMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/design_pattern/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/design_pattern/StudentBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/EvenThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/OddEvenMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/OddThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/PrintOddEvenNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/ThreadMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/pcproblem/EvenThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/pcproblem/Notepad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/pcproblem/OddThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/pcproblem/ReadThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/pcproblem/SharedResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/pcproblem/WriteThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/visibility/DaemonThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/visibility/RaceCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/visibility/SharedResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/visibility/VisibilityProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hash/linkedlist/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hash/linkedlist/LinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hash/linkedlist/LinkListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hash/linkedlist/LinkListMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hash/new_features/lambda/BasicLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/lambda/BasicLambda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +59,9 @@
     "Application.BeautifulArray.executor": "Run",
     "Application.CharCount.executor": "Run",
     "Application.CollectorsMethod.executor": "Run",
+    "Application.ConcurrentProblem.executor": "Run",
     "Application.DLLMain.executor": "Run",
+    "Application.DaemonThread.executor": "Run",
     "Application.Fibo.executor": "Run",
     "Application.GroupAnagrams.executor": "Run",
     "Application.GroupingBy.executor": "Run",
@@ -88,16 +74,23 @@
     "Application.MinimumAtPop.executor": "Run",
     "Application.NextGreaterElement.executor": "Run",
     "Application.NextSmallerElement.executor": "Run",
+    "Application.Notepad.executor": "Run",
     "Application.PowerOfNo.executor": "Run",
     "Application.PrintArray.executor": "Run",
     "Application.PrintBracketNumber.executor": "Run",
+    "Application.PrintOddEvenNumbers.executor": "Run",
+    "Application.ProblemSolved.executor": "Run",
+    "Application.RaceCondition.executor": "Run",
     "Application.RevArrayStack.executor": "Run",
+    "Application.SharedResource.executor": "Run",
     "Application.SortingAlgo.executor": "Run",
     "Application.SortingMap.executor": "Run",
     "Application.StockSpan.executor": "Debug",
     "Application.StringCompressor.executor": "Run",
     "Application.SumofArray.executor": "Run",
+    "Application.ThreadMethods.executor": "Run",
     "Application.ValidParanthesis.executor": "Run",
+    "Application.VisibilityProblem.executor": "Run",
     "Application.findNthHighest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -106,13 +99,13 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GroupAnagrams">
-    <configuration name="CollectorsMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.CollectorsMethod" />
+  <component name="RunManager" selected="Application.ThreadMethods">
+    <configuration name="ConcurrentProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.concurrent.ConcurrentProblem" />
       <module name="java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hash.new_features.interview.*" />
+          <option name="PATTERN" value="com.hash.concurrent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.GroupAnagrams" />
+    <configuration name="ProblemSolved" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.concurrent.ProblemSolved" />
       <module name="java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hash.new_features.interview.*" />
+          <option name="PATTERN" value="com.hash.concurrent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupingBy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.GroupingBy" />
+    <configuration name="RaceCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.multithreading.visibility.RaceCondition" />
       <module name="java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hash.new_features.interview.*" />
+          <option name="PATTERN" value="com.hash.multithreading.visibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HighestSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.HighestSalary" />
+    <configuration name="ThreadMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.multithreading.ThreadMethods" />
       <module name="java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hash.new_features.interview.*" />
+          <option name="PATTERN" value="com.hash.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCompressor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.StringCompressor" />
+    <configuration name="VisibilityProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.multithreading.visibility.VisibilityProblem" />
       <module name="java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hash.new_features.interview.*" />
+          <option name="PATTERN" value="com.hash.multithreading.visibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GroupAnagrams" />
-        <item itemvalue="Application.HighestSalary" />
-        <item itemvalue="Application.GroupingBy" />
-        <item itemvalue="Application.StringCompressor" />
-        <item itemvalue="Application.CollectorsMethod" />
+        <item itemvalue="Application.ThreadMethods" />
+        <item itemvalue="Application.ProblemSolved" />
+        <item itemvalue="Application.ConcurrentProblem" />
+        <item itemvalue="Application.RaceCondition" />
+        <item itemvalue="Application.VisibilityProblem" />
       </list>
     </recent_temporary>
   </component>
