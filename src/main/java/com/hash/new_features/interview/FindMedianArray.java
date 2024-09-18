@@ -44,9 +44,46 @@ public class FindMedianArray {
 
     }
 
-    private static int findMedian(int[] nums1, int[] nums2){
-        ArrayList<Integer> list = new ArrayList<>();
+    public double findMedianSortedArrays1(int[] nums1, int[] nums2) {
+        // Ensure nums1 is the smaller array for efficiency
+        if (nums1.length > nums2.length) {
+            return findMedianSortedArrays1(nums2, nums1);
+        }
 
-        return 0;
+        int m = nums1.length;
+        int n = nums2.length;
+        int totalLeft = (m + n + 1) / 2;  // Total number of elements on the left side
+
+        int left = 0, right = m;
+
+        while (left <= right) {
+            int partition1 = left + (right - left) / 2;
+            int partition2 = totalLeft - partition1;
+
+            // Elements immediately to the left and right of the partition
+            int maxLeft1 = (partition1 == 0) ? Integer.MIN_VALUE : nums1[partition1 - 1];
+            int minRight1 = (partition1 == m) ? Integer.MAX_VALUE : nums1[partition1];
+
+            int maxLeft2 = (partition2 == 0) ? Integer.MIN_VALUE : nums2[partition2 - 1];
+            int minRight2 = (partition2 == n) ? Integer.MAX_VALUE : nums2[partition2];
+
+            // Check if we have a valid partition
+            if (maxLeft1 <= minRight2 && maxLeft2 <= minRight1) {
+                // If the total number of elements is odd, return the max of left side
+                if ((m + n) % 2 == 1) {
+                    return Math.max(maxLeft1, maxLeft2);
+                }
+                // If even, return the average of max of left side and min of right side
+                return (Math.max(maxLeft1, maxLeft2) + Math.min(minRight1, minRight2)) / 2.0;
+            }
+            // Adjust the binary search range
+            else if (maxLeft1 > minRight2) {
+                right = partition1 - 1;  // Move to the left in nums1
+            } else {
+                left = partition1 + 1;  // Move to the right in nums1
+            }
+        }
+
+        throw new IllegalArgumentException("Input arrays are not sorted.");
     }
 }
