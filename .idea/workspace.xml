@@ -5,28 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d269ea2a-70a7-42f6-bf3f-760636e93d13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/concurrent/ConcurrentProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/concurrent/ProblemSolved.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/design_pattern/DoubleLockSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/design_pattern/FactoryMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/design_pattern/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/design_pattern/StudentBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/EvenThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/OddEvenMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/OddThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/PrintOddEvenNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/ThreadMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/pcproblem/EvenThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/pcproblem/Notepad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/pcproblem/OddThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/pcproblem/ReadThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/pcproblem/SharedResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/pcproblem/WriteThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/visibility/DaemonThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/visibility/RaceCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/visibility/SharedResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/visibility/VisibilityProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/thread_pool/ThreadPoolSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/AverageGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/FindMedianArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/FrequencyIPAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/NonRepeatedChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/Panagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/PowerOfTen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/ReturnSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/ReverseWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/SecondLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/StringFraction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/visibility/DaemonThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/visibility/DaemonThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArrayStack.executor": "Run",
+    "Application.AverageGrade.executor": "Run",
     "Application.BStringArray.executor": "Run",
     "Application.BeautifulArray.executor": "Run",
     "Application.CharCount.executor": "Run",
@@ -63,32 +56,43 @@
     "Application.DLLMain.executor": "Run",
     "Application.DaemonThread.executor": "Run",
     "Application.Fibo.executor": "Run",
+    "Application.FindMedianArray.executor": "Run",
+    "Application.FrequencyIPAddress.executor": "Run",
     "Application.GroupAnagrams.executor": "Run",
     "Application.GroupingBy.executor": "Run",
     "Application.HighestSalary.executor": "Run",
     "Application.InsertAtBottom.executor": "Run",
     "Application.LListStack.executor": "Run",
+    "Application.LRUCache.executor": "Run",
     "Application.LambdaSorting.executor": "Run",
     "Application.LinkListMain.executor": "Run",
     "Application.MinElement.executor": "Run",
     "Application.MinimumAtPop.executor": "Run",
     "Application.NextGreaterElement.executor": "Run",
     "Application.NextSmallerElement.executor": "Run",
+    "Application.NonRepeatedChar.executor": "Run",
     "Application.Notepad.executor": "Run",
+    "Application.Panagram.executor": "Run",
     "Application.PowerOfNo.executor": "Run",
+    "Application.PowerOfTen.executor": "Run",
     "Application.PrintArray.executor": "Run",
     "Application.PrintBracketNumber.executor": "Run",
     "Application.PrintOddEvenNumbers.executor": "Run",
     "Application.ProblemSolved.executor": "Run",
     "Application.RaceCondition.executor": "Run",
+    "Application.ReturnSubstring.executor": "Run",
     "Application.RevArrayStack.executor": "Run",
+    "Application.ReverseWord.executor": "Run",
+    "Application.SecondLargest.executor": "Run",
     "Application.SharedResource.executor": "Run",
     "Application.SortingAlgo.executor": "Run",
     "Application.SortingMap.executor": "Run",
     "Application.StockSpan.executor": "Debug",
     "Application.StringCompressor.executor": "Run",
+    "Application.StringFraction.executor": "Run",
     "Application.SumofArray.executor": "Run",
     "Application.ThreadMethods.executor": "Run",
+    "Application.ThreadPoolSample.executor": "Run",
     "Application.ValidParanthesis.executor": "Run",
     "Application.VisibilityProblem.executor": "Run",
     "Application.findNthHighest.executor": "Run",
@@ -99,13 +103,13 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ThreadMethods">
-    <configuration name="ConcurrentProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.concurrent.ConcurrentProblem" />
+  <component name="RunManager" selected="Application.NonRepeatedChar">
+    <configuration name="NonRepeatedChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.NonRepeatedChar" />
       <module name="java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hash.concurrent.*" />
+          <option name="PATTERN" value="com.hash.new_features.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProblemSolved" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.concurrent.ProblemSolved" />
+    <configuration name="PowerOfTen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.PowerOfTen" />
       <module name="java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hash.concurrent.*" />
+          <option name="PATTERN" value="com.hash.new_features.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaceCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.multithreading.visibility.RaceCondition" />
+    <configuration name="ReturnSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.ReturnSubstring" />
       <module name="java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hash.multithreading.visibility.*" />
+          <option name="PATTERN" value="com.hash.new_features.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.multithreading.ThreadMethods" />
+    <configuration name="ReverseWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.ReverseWord" />
       <module name="java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hash.multithreading.*" />
+          <option name="PATTERN" value="com.hash.new_features.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VisibilityProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.multithreading.visibility.VisibilityProblem" />
+    <configuration name="StringFraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.StringFraction" />
       <module name="java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hash.multithreading.visibility.*" />
+          <option name="PATTERN" value="com.hash.new_features.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadMethods" />
-        <item itemvalue="Application.ProblemSolved" />
-        <item itemvalue="Application.ConcurrentProblem" />
-        <item itemvalue="Application.RaceCondition" />
-        <item itemvalue="Application.VisibilityProblem" />
+        <item itemvalue="Application.NonRepeatedChar" />
+        <item itemvalue="Application.ReverseWord" />
+        <item itemvalue="Application.StringFraction" />
+        <item itemvalue="Application.PowerOfTen" />
+        <item itemvalue="Application.ReturnSubstring" />
       </list>
     </recent_temporary>
   </component>
