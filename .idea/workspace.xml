@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d269ea2a-70a7-42f6-bf3f-760636e93d13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/BuySellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/FibonacciSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/LongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/MaxSubArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/JoinMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/ConsecutiveSubstringCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/NonRepeatedChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/NonRepeatedChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/ReverseWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/ReverseWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/StringCompressor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/StringCompressor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +46,7 @@
     "Application.CharCount.executor": "Run",
     "Application.CollectorsMethod.executor": "Run",
     "Application.ConcurrentProblem.executor": "Run",
+    "Application.ConsecutiveSubstringCount.executor": "Run",
     "Application.DLLMain.executor": "Run",
     "Application.DaemonThread.executor": "Run",
     "Application.ExtractNumbers.executor": "Run",
@@ -58,6 +59,7 @@
     "Application.GroupingBy.executor": "Run",
     "Application.HighestSalary.executor": "Run",
     "Application.InsertAtBottom.executor": "Run",
+    "Application.JoinMethod.executor": "Run",
     "Application.LListStack.executor": "Run",
     "Application.LRUCache.executor": "Run",
     "Application.LambdaSorting.executor": "Run",
@@ -101,35 +103,9 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LongestSubstring">
-    <configuration name="BuySellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.BuySellStock" />
-      <module name="java-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hash.new_features.interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FibonacciSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.FibonacciSeries" />
-      <module name="java-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hash.new_features.interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.FizzBuzz" />
+  <component name="RunManager" selected="Application.ConsecutiveSubstringCount">
+    <configuration name="ConsecutiveSubstringCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.ConsecutiveSubstringCount" />
       <module name="java-programming" />
       <extension name="coverage">
         <pattern>
@@ -154,8 +130,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.MaxSubArraySum" />
+    <configuration name="NonRepeatedChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.NonRepeatedChar" />
+      <module name="java-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hash.new_features.interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.ReverseWord" />
+      <module name="java-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hash.new_features.interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCompressor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.StringCompressor" />
       <module name="java-programming" />
       <extension name="coverage">
         <pattern>
@@ -169,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsecutiveSubstringCount" />
+        <item itemvalue="Application.StringCompressor" />
         <item itemvalue="Application.LongestSubstring" />
-        <item itemvalue="Application.BuySellStock" />
-        <item itemvalue="Application.FizzBuzz" />
-        <item itemvalue="Application.FibonacciSeries" />
-        <item itemvalue="Application.MaxSubArraySum" />
+        <item itemvalue="Application.NonRepeatedChar" />
+        <item itemvalue="Application.ReverseWord" />
       </list>
     </recent_temporary>
   </component>

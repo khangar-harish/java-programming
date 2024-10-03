@@ -1,5 +1,6 @@
 package com.hash.new_features.interview;
 
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.IntStream;
 
 public class StringCompressor {
@@ -8,21 +9,26 @@ public class StringCompressor {
         System.out.println(compressStringRegular("AABBBCCCD")); // Output: A2B3C3D1
         System.out.println(compressStringRegular("KKKKK"));     // Output: K5
         System.out.println(compressStringRegular("AABCA"));    // Output: A2B1C1A1
+
+        System.out.println(compressString("AABBBCCCD")); // Output: A2B3C3D1
+        System.out.println(compressString("KKKKK"));     // Output: K5
+        System.out.println(compressString("AABCA"));    // Output: A2B1C1A1
     }
 
     public static String compressString(String str){
 
         StringBuilder compressed = new StringBuilder();
-
+        AtomicInteger count = new AtomicInteger(1);
         IntStream.range(0, str.length())
                 .forEach(i -> {
-                    compressed.append(str.charAt(i));
 
-                    int count = 1;
                     if (i + 1 < str.length() && str.charAt(i) == str.charAt(i + 1)){
-                        count++;
+                        count.getAndIncrement();
+                    }else {
+                        compressed.append(str.charAt(i));
+                        compressed.append(count.get());
+                        count.set(1);
                     }
-                    compressed.append(count);
                 });
         return compressed.toString();
     }

@@ -8,7 +8,6 @@ public class ReverseWord {
         String input = "I am, Robot!";
         String output = reverseWordsWithCaseAndSpecialChars(input);
         System.out.println(output);
-        System.out.println(reverseAlphabetic(input));
     }
 
     private static String reverseWordsWithCaseAndSpecialChars(String input) {
@@ -18,7 +17,7 @@ public class ReverseWord {
         StringBuilder result = new StringBuilder();
 
         for (String word : words){
-            result.append(reverseWord(word)).append(" ");
+            result.append(reverseAlphabetic(word)).append(" ");
         }
 
         return result.toString();
@@ -31,6 +30,8 @@ public class ReverseWord {
     }
 
     public static String reverseAlphabetic(String input) {
+
+
         char[] charArray = input.toCharArray();
         int left = 0;
         int right = charArray.length - 1;
