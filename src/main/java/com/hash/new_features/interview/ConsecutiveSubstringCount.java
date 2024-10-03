@@ -9,7 +9,7 @@ public class ConsecutiveSubstringCount {
 
     public static void main(String[] args) {
 
-        System.out.println(subStringCount("AAABBBBBBBBCCCCVVXXXXXXXXXXXX"));
+        System.out.println(subStringCount("AAABBBBBBBBCCCCCCCCCCCCCCCCCCCCVVXXXXXXXXXXXX"));
     }
 
     private static String subStringCount(String input) {

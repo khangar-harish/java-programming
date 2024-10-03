@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d269ea2a-70a7-42f6-bf3f-760636e93d13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/multithreading/JoinMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/ConsecutiveSubstringCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/MyAtoi32Bit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/StringCompressStar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/NonRepeatedChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/NonRepeatedChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/ReverseWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/ReverseWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/StringCompressor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/StringCompressor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/ConsecutiveSubstringCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/ConsecutiveSubstringCount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +86,7 @@
     "Application.SortingAlgo.executor": "Run",
     "Application.SortingMap.executor": "Run",
     "Application.StockSpan.executor": "Debug",
+    "Application.StringCompressStar.executor": "Run",
     "Application.StringCompressor.executor": "Run",
     "Application.StringFraction.executor": "Run",
     "Application.SumofArray.executor": "Run",
@@ -103,7 +102,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ConsecutiveSubstringCount">
+  <component name="RunManager" selected="Application.MyAtoi32Bit">
     <configuration name="ConsecutiveSubstringCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.ConsecutiveSubstringCount" />
       <module name="java-programming" />
@@ -130,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonRepeatedChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.NonRepeatedChar" />
+    <configuration name="MyAtoi32Bit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.MyAtoi32Bit" />
       <module name="java-programming" />
       <extension name="coverage">
         <pattern>
@@ -143,8 +142,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.ReverseWord" />
+    <configuration name="StringCompressStar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.StringCompressStar" />
       <module name="java-programming" />
       <extension name="coverage">
         <pattern>
@@ -171,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyAtoi32Bit" />
+        <item itemvalue="Application.StringCompressStar" />
         <item itemvalue="Application.ConsecutiveSubstringCount" />
         <item itemvalue="Application.StringCompressor" />
         <item itemvalue="Application.LongestSubstring" />
-        <item itemvalue="Application.NonRepeatedChar" />
-        <item itemvalue="Application.ReverseWord" />
       </list>
     </recent_temporary>
   </component>
