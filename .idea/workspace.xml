@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d269ea2a-70a7-42f6-bf3f-760636e93d13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/MyAtoi32Bit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/StringCompressStar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/ConsecutiveSubstringCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/ConsecutiveSubstringCount.java" afterDir="false" />
     </list>
@@ -66,6 +64,7 @@
     "Application.MaxSubArraySum.executor": "Run",
     "Application.MinElement.executor": "Run",
     "Application.MinimumAtPop.executor": "Run",
+    "Application.MyAtoi32Bit.executor": "Run",
     "Application.NextGreaterElement.executor": "Run",
     "Application.NextSmallerElement.executor": "Run",
     "Application.NonRepeatedChar.executor": "Run",
@@ -102,9 +101,9 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MyAtoi32Bit">
-    <configuration name="ConsecutiveSubstringCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.ConsecutiveSubstringCount" />
+  <component name="RunManager" selected="Application.ConsecutiveSubstringCount">
+    <configuration name="AverageGrade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.AverageGrade" />
       <module name="java-programming" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +115,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.LongestSubstring" />
+    <configuration name="BuySellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.BuySellStock" />
+      <module name="java-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hash.new_features.interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsecutiveSubstringCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.ConsecutiveSubstringCount" />
       <module name="java-programming" />
       <extension name="coverage">
         <pattern>
@@ -155,26 +167,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCompressor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.StringCompressor" />
-      <module name="java-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hash.new_features.interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsecutiveSubstringCount" />
+        <item itemvalue="Application.BuySellStock" />
+        <item itemvalue="Application.AverageGrade" />
         <item itemvalue="Application.MyAtoi32Bit" />
         <item itemvalue="Application.StringCompressStar" />
-        <item itemvalue="Application.ConsecutiveSubstringCount" />
-        <item itemvalue="Application.StringCompressor" />
-        <item itemvalue="Application.LongestSubstring" />
       </list>
     </recent_temporary>
   </component>

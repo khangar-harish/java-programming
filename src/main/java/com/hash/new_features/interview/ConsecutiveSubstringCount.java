@@ -26,7 +26,7 @@ public class ConsecutiveSubstringCount {
                         if(maxCount.get() < count.get()){
                             maxCount.set(count.get());
                             compressed.delete(0, compressed.length());
-                            compressed.append(input.charAt(i)).append(count.get());
+                            compressed.append(input.charAt(i)).append(maxCount.get());
                         }
                         count.set(1);
                     }
