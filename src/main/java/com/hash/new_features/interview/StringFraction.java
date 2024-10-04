@@ -38,7 +38,6 @@ public class StringFraction {
         Map<Long, Integer> remainderMap = new HashMap<>();
         StringBuilder fraction = new StringBuilder();
         int count = 0;
-        long fr;
 
         while (remainder != 0){
             if(remainderMap.containsKey(remainder)){
@@ -53,7 +52,7 @@ public class StringFraction {
 
             remainder *= 10;
             fraction.append(remainder/denominator);
-            remainder = remainder  % denominator;
+            remainder = remainder % denominator;
         }
 
 

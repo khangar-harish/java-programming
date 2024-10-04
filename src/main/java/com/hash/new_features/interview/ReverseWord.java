@@ -23,11 +23,11 @@ public class ReverseWord {
         return result.toString();
     }
 
-    private static String reverseWord(String word) {
-
-        StringBuilder sb = new StringBuilder(word);
-        return sb.reverse().toString();
-    }
+//    private static String reverseWord(String word) {
+//
+//        StringBuilder sb = new StringBuilder(word);
+//        return sb.reverse().toString();
+//    }
 
     public static String reverseAlphabetic(String input) {
 

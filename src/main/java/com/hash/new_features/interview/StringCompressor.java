@@ -33,25 +33,25 @@ public class StringCompressor {
         return compressed.toString();
     }
 
-    public static String compressStringRegular1(String str){
-
-        StringBuilder compressed = new StringBuilder();
-        int count = 1;
-        char current = str.charAt(0);
-
-        for (int i = 1; i < str.length(); i++) {
-            char next = str.charAt(i);
-            if(next == current){
-                count++;
-            }else {
-                compressed.append(current).append(count);
-                current = next;
-                count = 1;
-            }
-        }
-        compressed.append(current).append(count);
-        return compressed.toString();
-    }
+//    public static String compressStringRegular1(String str){
+//
+//        StringBuilder compressed = new StringBuilder();
+//        int count = 1;
+//        char current = str.charAt(0);
+//
+//        for (int i = 1; i < str.length(); i++) {
+//            char next = str.charAt(i);
+//            if(next == current){
+//                count++;
+//            }else {
+//                compressed.append(current).append(count);
+//                current = next;
+//                count = 1;
+//            }
+//        }
+//        compressed.append(current).append(count);
+//        return compressed.toString();
+//    }
 
     public static String compressStringRegular(String str){
 

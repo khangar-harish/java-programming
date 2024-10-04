@@ -25,7 +25,7 @@ public class Panagram {
 
         aTozChar.removeAll(inputChars);
 
-        return aTozChar.stream().sorted().map(String::valueOf).collect(Collectors.joining());
+        return aTozChar.stream().map(String::valueOf).collect(Collectors.joining());
 
     }
 }

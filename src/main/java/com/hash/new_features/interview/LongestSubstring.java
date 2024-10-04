@@ -20,9 +20,10 @@ public class LongestSubstring {
         for (int i = 0; i < input.length(); i++) {
 
             char currentChar = input.charAt(i);
-
+            char ch;
             while (seen.contains(currentChar)){
-                seen.remove(input.charAt(start++));
+                ch = input.charAt(start++);
+                seen.remove(ch);
             }
             seen.add(currentChar);
             maxLength = Math.max(maxLength, i - start + 1);

@@ -22,10 +22,7 @@ public class GroupAnagrams {
         System.out.println("Now change the keys by string to integer");
         System.out.println("key is calculated by no of string present in value list");
         Map<Integer, List<String>> newMap = collect.entrySet().stream()
-                .collect(Collectors.toMap(
-                        entry -> entry.getValue().size(),
-                        Map.Entry::getValue
-                ));
+                .collect(Collectors.toMap(entry -> entry.getValue().size(), Map.Entry::getValue));
 
         newMap.entrySet().forEach(System.out::println);
 

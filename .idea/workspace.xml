@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d269ea2a-70a7-42f6-bf3f-760636e93d13" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/ConsecutiveSubstringCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/ConsecutiveSubstringCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/GroupAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/LongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/LongestSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/Panagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/Panagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/ReverseWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/ReverseWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/StringCompressor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/StringCompressor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/StringFraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hash/new_features/interview/StringFraction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,9 +106,9 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ConsecutiveSubstringCount">
-    <configuration name="AverageGrade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.AverageGrade" />
+  <component name="RunManager" selected="Application.StringFraction">
+    <configuration name="ReverseWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.ReverseWord" />
       <module name="java-programming" />
       <extension name="coverage">
         <pattern>
@@ -115,34 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BuySellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.BuySellStock" />
-      <module name="java-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hash.new_features.interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConsecutiveSubstringCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.ConsecutiveSubstringCount" />
-      <module name="java-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hash.new_features.interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyAtoi32Bit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.MyAtoi32Bit" />
+    <configuration name="SecondLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.SecondLargest" />
       <module name="java-programming" />
       <extension name="coverage">
         <pattern>
@@ -167,13 +146,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringCompressor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.StringCompressor" />
+      <module name="java-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hash.new_features.interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringFraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hash.new_features.interview.StringFraction" />
+      <module name="java-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hash.new_features.interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConsecutiveSubstringCount" />
-        <item itemvalue="Application.BuySellStock" />
-        <item itemvalue="Application.AverageGrade" />
-        <item itemvalue="Application.MyAtoi32Bit" />
+        <item itemvalue="Application.StringFraction" />
         <item itemvalue="Application.StringCompressStar" />
+        <item itemvalue="Application.StringCompressor" />
+        <item itemvalue="Application.SecondLargest" />
+        <item itemvalue="Application.ReverseWord" />
       </list>
     </recent_temporary>
   </component>
